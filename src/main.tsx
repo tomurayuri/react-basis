@@ -7,7 +7,7 @@ const rootElement = document.getElementById('root');
 if (rootElement) {
   const root = createRoot(rootElement);
   root.render(
-    // <StrictMode>
+    // <StrictMode> 開発モードで２回レンダリングされるのを防ぐため一旦コメントアウト
     <App />
     // </StrictMode>
   );
